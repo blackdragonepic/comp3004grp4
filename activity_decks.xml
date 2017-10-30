@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thomas.mtgtrackingapp.Decks">
+
+    <RelativeLayout
+        android:layout_width="373dp"
+        android:layout_height="225dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="254dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/relativeLayout2">
+
+        <ListView
+            android:id="@+id/Decklist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/relativeLayout2"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="47dp"
+        android:text="Decklist" />
+
+    <Button
+        android:id="@+id/deckBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create deck"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignLeft="@+id/relativeLayout2"
+        android:layout_alignStart="@+id/relativeLayout2" />
+
+</RelativeLayout>
