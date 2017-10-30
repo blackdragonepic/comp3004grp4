@@ -1,4 +1,5 @@
-package com.example.thomas.mtgtrackingapp;
+package com.example.group4.myapplication;
+
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -57,15 +58,15 @@ public class Deck_viewer extends AppCompatActivity {
         );
         final Button BTND2=(Button)(findViewById(R.id.button));
         BTND2.setOnClickListener(new View.OnClickListener(){
-                                    @Override
-                                    public void onClick(View v){
-                                        currentGames.add(new Game());
+                                     @Override
+                                     public void onClick(View v){
+                                         currentGames.add(new Game());
 
-                                        GamePosition=currentGames.size()-1;
-                                        GameVewierHolder=currentGames.get(GamePosition);
-                                        startActivity(new Intent(getApplicationContext(),Game_view.class));
-                                    }
-                                }
+                                         GamePosition=currentGames.size()-1;
+                                         GameVewierHolder=currentGames.get(GamePosition);
+                                         startActivity(new Intent(getApplicationContext(),Game_view.class));
+                                     }
+                                 }
         );
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

@@ -1,4 +1,4 @@
-package com.example.thomas.mtgtrackingapp;
+package com.example.group4.myapplication;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +23,6 @@ public class Decks extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decks);
-
         String[] displayer;
         if (deckList.size()==0)
         {
@@ -42,11 +41,11 @@ public class Decks extends AppCompatActivity {
 
         final Button deckBTNv=(Button)(findViewById(R.id.deckBTN));
         deckBTNv.setOnClickListener(new View.OnClickListener(){
-                                      @Override
-                                      public void onClick(View v){
-                                          startActivity(new Intent(getApplicationContext(),Deck_creator.class));
-                                      }
-                                  }
+                                        @Override
+                                        public void onClick(View v){
+                                            startActivity(new Intent(getApplicationContext(),Deck_creator.class));
+                                        }
+                                    }
         );
 
 
@@ -64,7 +63,6 @@ public class Decks extends AppCompatActivity {
             }
         };
         listView.setOnItemClickListener(mMessageClickedHandler);
-
 
     }
 

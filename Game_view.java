@@ -1,4 +1,4 @@
-package com.example.thomas.mtgtrackingapp;
+package com.example.group4.myapplication;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -49,10 +49,12 @@ public class Game_view extends AppCompatActivity {
                                          if (check.isChecked())
                                          {
                                              Deck_viewer.GameVewierHolder.setWin(1);
+                                             Decks.DeckViewerHolder.winsInc();
                                          }
                                          else
                                          {
                                              Deck_viewer.GameVewierHolder.setWin(0);
+                                             Decks.DeckViewerHolder.losesInc();
                                          }
                                      }
                                  }
@@ -60,12 +62,12 @@ public class Game_view extends AppCompatActivity {
 
         final Button BTND=(Button)(findViewById(R.id.button4));
         BTND.setOnClickListener(new View.OnClickListener(){
-                                     @Override
-                                     public void onClick(View v){
-                                         Decks.DeckViewerHolder.getGames().remove(Deck_viewer.GamePosition);
-                                         startActivity(new Intent(getApplicationContext(),Deck_viewer.class));
-                                     }
-                                 }
+                                    @Override
+                                    public void onClick(View v){
+                                        Decks.DeckViewerHolder.getGames().remove(Deck_viewer.GamePosition);
+                                        startActivity(new Intent(getApplicationContext(),Deck_viewer.class));
+                                    }
+                                }
         );
 
     }

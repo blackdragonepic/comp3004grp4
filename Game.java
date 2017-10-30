@@ -1,4 +1,4 @@
-package com.example.thomas.mtgtrackingapp;
+package com.example.group4.myapplication;
 
 /**
  * Created by Thomas on 28/10/2017.
