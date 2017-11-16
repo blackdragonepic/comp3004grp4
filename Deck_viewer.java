@@ -95,8 +95,18 @@ public class Deck_viewer extends AppCompatActivity {
             }
         };
         listView.setOnItemClickListener(mMessageClickedHandler);
-    }
+        configureBackToDecksButton();
 
+    }
+    public void configureBackToDecksButton(){
+        Button nextButton = (Button) findViewById(R.id.backtoDecks);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Deck_viewer.this, Decks.class));
+            }
+        });
+    }
 
     String[] toStringArray(ArrayList<Game> temp)
     {
@@ -107,5 +117,6 @@ public class Deck_viewer extends AppCompatActivity {
         }
         return output;
     }
+
 
 }

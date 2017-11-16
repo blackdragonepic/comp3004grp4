@@ -37,14 +37,15 @@
 
     <ImageView
         android:id="@+id/main_menu_logo"
-        android:layout_width="0dp"
-        android:layout_height="146dp"
+        android:layout_width="318dp"
+        android:layout_height="116dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="50dp"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/mtacomp3004"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mtacomp3004" />
+         />
+
 </android.support.constraint.ConstraintLayout>

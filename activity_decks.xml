@@ -53,4 +53,15 @@
         android:layout_alignLeft="@+id/relativeLayout2"
         android:layout_alignStart="@+id/relativeLayout2" />
 
+    <Button
+        android:id="@+id/backtomenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_toEndOf="@+id/deckBTN"
+        android:layout_toRightOf="@+id/deckBTN"
+        android:text="Back" />
+
 </RelativeLayout>

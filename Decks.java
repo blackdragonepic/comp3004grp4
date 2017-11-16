@@ -46,6 +46,7 @@ public class Decks extends AppCompatActivity {
                                             startActivity(new Intent(getApplicationContext(),Deck_creator.class));
                                         }
                                     }
+
         );
 
 
@@ -63,9 +64,17 @@ public class Decks extends AppCompatActivity {
             }
         };
         listView.setOnItemClickListener(mMessageClickedHandler);
-
+        configureBackButton();
     }
-
+    public void configureBackButton(){
+        Button nextButton = (Button) findViewById(R.id.backtomenu);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Decks.this, MainActivity.class));
+            }
+        });
+    }
 
 
     String[] toStringArray(ArrayList<Deck> var)

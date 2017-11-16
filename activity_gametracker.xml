@@ -61,15 +61,15 @@
         app:layout_constraintHorizontal_bias="0.59" />
 
     <Button
-        android:id="@+id/WhitUse"
+        android:id="@+id/WhiteUse"
         android:layout_width="53dp"
         android:layout_height="36dp"
-        android:text="Use"
         android:layout_marginLeft="0dp"
-        app:layout_constraintLeft_toLeftOf="@+id/WhiteNum"
         android:layout_marginRight="0dp"
-        app:layout_constraintRight_toRightOf="@+id/WhiteNum"
         android:layout_marginTop="0dp"
+        android:text="Use"
+        app:layout_constraintLeft_toLeftOf="@+id/WhiteNum"
+        app:layout_constraintRight_toRightOf="@+id/WhiteNum"
         app:layout_constraintTop_toBottomOf="@+id/WhiteNum" />
 
     <TextView

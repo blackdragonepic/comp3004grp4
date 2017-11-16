@@ -218,7 +218,7 @@ public class gametracker extends AppCompatActivity {
 
 
     public void whiteUse(){
-        Button button = (Button) findViewById(R.id.WhiteButton);
+        Button button = (Button) findViewById(R.id.WhiteUse);
         final TextView whiteTotal = (TextView) findViewById(R.id.WhiteNum);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -232,7 +232,7 @@ public class gametracker extends AppCompatActivity {
     }
 
     public void blackUse(){
-        Button button = (Button) findViewById(R.id.BlackButton);
+        Button button = (Button) findViewById(R.id.BlackUse);
         final TextView blackTotal = (TextView) findViewById(R.id.BlackNum);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -246,7 +246,7 @@ public class gametracker extends AppCompatActivity {
     }
 
     public void blueUse(){
-        Button button = (Button) findViewById(R.id.BlueButton);
+        Button button = (Button) findViewById(R.id.BlueUse);
         final TextView blueTotal = (TextView) findViewById(R.id.BlueNum);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -260,7 +260,7 @@ public class gametracker extends AppCompatActivity {
     }
 
     public void redUse(){
-        Button button = (Button) findViewById(R.id.RedButton);
+        Button button = (Button) findViewById(R.id.RedUse);
         final TextView redTotal = (TextView) findViewById(R.id.RedNum);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -274,7 +274,7 @@ public class gametracker extends AppCompatActivity {
     }
 
     public void greenUse(){
-        Button button = (Button) findViewById(R.id.GreenButton);
+        Button button = (Button) findViewById(R.id.GreenUse);
         final TextView greenTotal = (TextView) findViewById(R.id.GreenNum);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

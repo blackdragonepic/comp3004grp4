@@ -111,4 +111,13 @@
         android:layout_marginLeft="11dp"
         android:layout_marginStart="11dp" />
 
+    <Button
+        android:id="@+id/backtoDecks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignTop="@+id/button"
+        android:text="Back" />
+
 </RelativeLayout>
