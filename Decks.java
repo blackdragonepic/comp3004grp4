@@ -87,4 +87,11 @@ public class Decks extends AppCompatActivity {
         }
         return output;
     }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        FileManager filemanager=new FileManager();
+        filemanager.saveDecks(getApplicationContext());
+
+    }
 }

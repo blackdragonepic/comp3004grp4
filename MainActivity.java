@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FileManager io = new FileManager();
+        io.readDecks(getApplicationContext());
         configureToSinglePlayerButton();
         configureDeckTrackerButton();
     }

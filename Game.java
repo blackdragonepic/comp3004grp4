@@ -4,6 +4,8 @@ package com.example.group4.myapplication;
  * Created by Thomas on 28/10/2017.
  */
 
+
+
 public class Game {
     private String desc;
     private String name;
@@ -12,6 +14,23 @@ public class Game {
     private String goodCards;
     private String badCards;
 
+    Game(String name, String desc, String goodCards,String badCards)
+    {
+        this.name=name;
+        this.desc=desc;
+        win=1;
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+    }
+    Game(String name, String desc, String goodCards,String badCards,String wins)
+    {
+        this.name=name;
+        this.desc=desc;
+
+        win=Integer.parseInt(wins);
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+    }
     Game()
     {
         name="";

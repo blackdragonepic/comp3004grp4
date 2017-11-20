@@ -1,4 +1,4 @@
-package com.example.thomas.mtgtrackingapp;
+package com.example.group4.myapplication;
 
 import android.content.Context;
 import android.content.Context;
