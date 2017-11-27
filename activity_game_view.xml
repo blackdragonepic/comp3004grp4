@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/iona2"
     tools:context="com.example.group4.myapplication.Game_view">
 
     <TextView
@@ -11,6 +12,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp"
         android:layout_marginLeft="12dp"
@@ -50,6 +77,7 @@
         android:layout_alignStart="@+id/editText4"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="11dp"
+        android:textColor="#000000"
         android:text="Description" />
 
     <TextView
@@ -60,6 +88,7 @@
         android:text="Good cards"
         android:layout_below="@+id/editText4"
         android:layout_alignLeft="@+id/editText4"
+        android:textColor="#000000"
         android:layout_alignStart="@+id/editText4" />
 
     <EditText
@@ -81,6 +110,7 @@
         android:layout_alignStart="@+id/editText6"
         android:layout_below="@+id/editText6"
         android:layout_marginTop="14dp"
+        android:textColor="#000000"
         android:text="Bad cards" />
 
     <EditText
