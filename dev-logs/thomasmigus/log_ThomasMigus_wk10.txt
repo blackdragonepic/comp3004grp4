@@ -1,0 +1,1 @@
+ Added resources and graphics to deck tracker, cleaned up design. (3 hours)
