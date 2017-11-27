@@ -19,7 +19,7 @@ public class gametracker extends AppCompatActivity {
     public static Player playerUsed;
     public static int playerPos;
 
-    //String[] temp = {"Player 1", "Player 2", "Player 3", "Player 4"};
+    String[] temp = {"Player 1", "Player 2","Player 3","Player 4"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +27,8 @@ public class gametracker extends AppCompatActivity {
         String[] displayer;
         if (playerList.size()==0)
         {
-            displayer = new String[1];
-            displayer[0] = "No Players In Game Yet";
+            displayer=new String[1];
+            displayer[0]="No Players In Game Yet";
         }
         else
         {
@@ -57,6 +57,7 @@ public class gametracker extends AppCompatActivity {
                     listView.setAdapter(adapter);
                 }
             }
+
         );
 
 
@@ -75,6 +76,7 @@ public class gametracker extends AppCompatActivity {
         };
         listView.setOnItemClickListener(mMessageClickedHandler);
         configureBackButton();
+        configureProbButton();
     }
     public void configureBackButton(){
         Button nextButton = (Button) findViewById(R.id.backtomenu);
@@ -82,6 +84,16 @@ public class gametracker extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(gametracker.this, MainActivity.class));
+            }
+        });
+    }
+
+    public void configureProbButton(){
+        Button nextButton = (Button) findViewById(R.id.probButton);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(gametracker.this, Probability.class));
             }
         });
     }
