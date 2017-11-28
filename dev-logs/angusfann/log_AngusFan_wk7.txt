@@ -1,0 +1,2 @@
+Week 7 - Discussed the architechtural styles and the design patterns used for the application
+         and why those methods were the most effective for our application.
