@@ -1,0 +1,2 @@
+Week 5 - Discussed additional implementation for the application and how implement it. (1 hour)
+       
