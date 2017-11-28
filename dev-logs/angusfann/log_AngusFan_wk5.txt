@@ -1,2 +1,3 @@
-Week 5 - Discussed additional implementation for the application and how implement it. (1 hour)
+Week 5 - Created main menu & started work on gametracker, as well as implemented the counter functionality (5 hours)
+
        
