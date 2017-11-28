@@ -1,0 +1,2 @@
+Week 7 - Discussed which architectural styles and design patterns were used in the creation of the application
+         and talked about the reasons behind the choices.
