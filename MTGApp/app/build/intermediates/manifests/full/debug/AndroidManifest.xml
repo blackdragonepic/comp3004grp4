@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bsdomain.mtgapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.bsdomain.mtgapp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bsdomain.mtgapp.gametracker"
+            android:parentActivityName="com.bsdomain.mtgapp.MainActivity" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Player_tracker"
+            android:parentActivityName="com.bsdomain.mtgapp.gametracker" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Probability"
+            android:parentActivityName="com.bsdomain.mtgapp.gametracker" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Decks"
+            android:parentActivityName="com.bsdomain.mtgapp.MainActivity" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Deck_viewer"
+            android:parentActivityName="com.bsdomain.mtgapp.Decks" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Deck_creator"
+            android:parentActivityName="com.bsdomain.mtgapp.Decks" />
+        <activity
+            android:name="com.bsdomain.mtgapp.Game_view"
+            android:parentActivityName="com.bsdomain.mtgapp.Deck_viewer" />
+    </application>
+
+</manifest>
