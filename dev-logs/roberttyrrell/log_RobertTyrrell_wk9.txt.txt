@@ -1,0 +1,1 @@
+Week 9 - Discussed the architectural styles and the design pattern used for app and why those methods were most effective for our application (5 hours)
