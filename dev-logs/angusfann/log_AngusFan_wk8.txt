@@ -1,1 +1,1 @@
-Week 8 - Implemented the loading / saving (filemanager) code snippet from Thomas (2 hours)
+Week 8 - Implemented the loading / saving (filemanager) code snippet from Thomas (5 hours)
