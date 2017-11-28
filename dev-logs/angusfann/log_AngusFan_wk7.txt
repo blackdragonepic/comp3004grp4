@@ -1,2 +1,1 @@
-Week 7 - Discussed the architechtural styles and the design patterns used for the application
-         and why those methods were the most effective for our application.
+Week 7 -  Cleaned up the application and removed unused code, changed main menu assets (5 hours)
