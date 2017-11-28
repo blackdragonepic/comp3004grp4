@@ -1,3 +1,1 @@
-Week 1 - Deciding what kind of app we wanted to develop. Decided on Magic The Gathering (3 hours)
- +       - Learning the rules of Magic The Gathering and how the game is played (2 hours)
- +       - Deciding which platform we should develop for and what program we should use (Android Studio) (~30mins)
+Week 1 -  Learn about Magic the Gathering (5 hours)
