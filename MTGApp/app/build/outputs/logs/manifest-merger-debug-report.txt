@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8edbf9eddf9bd30899bdec346e2db607\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:5:5-41:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8edbf9eddf9bd30899bdec346e2db607\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8edbf9eddf9bd30899bdec346e2db607\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.bsdomain.mtgapp.MainActivity
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.bsdomain.mtgapp.gametracker
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:20:9-21:58
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:21:13-55
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:20:19-46
+activity#com.bsdomain.mtgapp.Player_tracker
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:23:9-24:57
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:24:13-54
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.bsdomain.mtgapp.Probability
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:26:9-27:57
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:27:13-54
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:26:19-46
+activity#com.bsdomain.mtgapp.Decks
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:29:9-30:58
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:30:13-55
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:29:19-40
+activity#com.bsdomain.mtgapp.Deck_viewer
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:32:9-33:51
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:33:13-48
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:32:19-46
+activity#com.bsdomain.mtgapp.Deck_creator
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:35:9-36:51
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:36:13-48
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:35:19-47
+activity#com.bsdomain.mtgapp.Game_view
+ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:38:9-39:57
+	android:parentActivityName
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml:38:19-44
+uses-sdk
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8edbf9eddf9bd30899bdec346e2db607\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8edbf9eddf9bd30899bdec346e2db607\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Programs\Dropbox\Uni\Year 3\COMP3004\MTGApp\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\dec716579368379bf83afa553912bae6\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\82e22299467b1e74a314212adf250c69\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\2ff793e66427f9fe3284cbdf4c44b099\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a47c346629f215c27de67858bcdc0772\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\c065dfd14b7471a9cd79a47ab94cd076\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\28b5dafde688ecf4f894c4b202665ecd\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\005fd57e4c20b95feb866a6a57a7b2b5\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\427adccb4b1f93a3c9bf5a6f779a9bc0\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jonathan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\733ad492ce7eb1d4718262277c22b836\AndroidManifest.xml:26:9-47
