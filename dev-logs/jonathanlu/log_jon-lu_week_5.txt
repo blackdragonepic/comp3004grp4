@@ -1,0 +1,5 @@
+Week 5:
+
+- Created a player object (5 hours)
+  - Stored individual players data
+  - (INCOMPLETE) Do not know all the variables in the single player gametracker

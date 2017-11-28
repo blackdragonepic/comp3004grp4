@@ -1,0 +1,8 @@
+Week 9:
+
+- Group:
+  - Completed Deliverable 3 (5 hours)
+  - Prepared for our oral exam (4 hours)
+  - Discussed the architectural styles and design patterns incorporated into our application
+    - Discussed why are they important
+    - Diagrams

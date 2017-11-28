@@ -1,0 +1,5 @@
+Week 7:
+
+- Added player creation to the multiplayer tracking menu (3 hours)
+  - (INCOMPLETE) Different players not displayed or able to be selected yet
+- Modified code in the game tracker to work with different player objects (3 hours)

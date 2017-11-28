@@ -1,0 +1,4 @@
+Week 6:
+
+- Made a menu to select between individual players (4 hours)
+- Finished the player object based on gametracker variables (1 hour)

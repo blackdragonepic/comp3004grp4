@@ -1,0 +1,7 @@
+Week 3:
+
+- Angus found an IDE in which we would code on: Android Studio
+- Played around with Android Studio
+  - Java refresher (1 hour)
+  - Learn to make a basic Android app and GUI elements for a mobile device to interact with (4 hours)
+  - Learned to make button counters in Android Studio (1 hour)

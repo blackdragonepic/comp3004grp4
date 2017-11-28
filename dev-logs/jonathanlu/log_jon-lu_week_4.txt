@@ -1,0 +1,5 @@
+Week 4:
+
+- Plan on how the multiplayer of the app would be designed (4 hours)
+  - Would require some of single player to be finished
+- Looked over Angus' single player tracker design to finish the mutltiplayer design aspect (1 hour)

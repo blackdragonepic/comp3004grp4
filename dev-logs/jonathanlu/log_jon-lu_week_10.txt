@@ -1,0 +1,11 @@
+Week 10:
+
+- Finished the multiplayer components of the application (3 hours)
+- Connected the player component to the multiplayer component (1.5 hour)
+- Quality of life changes (0.5 hour)
+
+- Group:
+  - Combined the group's work (4 hours)
+    - Fixed conflict bugs that appeared when the work combined (1 hour of the 4)
+  - Uploaded the Android Studio Project folder to the GitHub (1 hour)
+    - Has a 100 file upload limit at a time

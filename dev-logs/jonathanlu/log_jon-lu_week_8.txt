@@ -1,0 +1,5 @@
+Week 8:
+
+- Added ability to display and select a player in the multiplayer menu (3.5 hours)
+- Struggled with the xml (2 hours)
+  - Got help from Robert
