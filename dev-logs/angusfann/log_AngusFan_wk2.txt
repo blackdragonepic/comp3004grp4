@@ -1,2 +1,1 @@
-Week 2 - Deciding the app layout and its functions (5 hours)
-       - Creating single player mockup on AdobeXD (1 Hour)
+Week 2 - Looked for Android IDE: downloaded and tested intellij, android studio, netbeans, eclipse, visual studio (5 hours)
