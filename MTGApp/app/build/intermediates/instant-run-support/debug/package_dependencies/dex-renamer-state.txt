@@ -1,0 +1,4 @@
+#Mon Nov 27 20:41:31 EST 2017
+base.0=E\:\\Programs\\Dropbox\\Uni\\Year 3\\COMP3004\\MTGApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+renamed.0=classes.dex
+file.0=E\:\\Programs\\Dropbox\\Uni\\Year 3\\COMP3004\\MTGApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10\\classes.dex
