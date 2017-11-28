@@ -1,2 +1,1 @@
-Week 3 - Looked for Android IDE: downloaded and tested intellij, android studio, netbeans, eclipse, visual studio (5 hours)
-
+Week 3 -  Experimented with Android Studio (5 hour), made main menu, life counter code
