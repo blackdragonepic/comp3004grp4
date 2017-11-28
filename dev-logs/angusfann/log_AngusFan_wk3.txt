@@ -1,0 +1,2 @@
+Week 3 - Learning how to use Android Studio, made very simple calculator app (2 hours)
+       - Began making the activities for the application (2 hours)
