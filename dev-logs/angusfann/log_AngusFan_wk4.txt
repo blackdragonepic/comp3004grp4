@@ -1,0 +1,3 @@
+Week 4 - Created assets the application (main menu and the logo) (2 hours)
+       - Implemented functionality to the main activity (1 hour)
+       - Created code for the gameTracker (buttons to increment and decrement)  (2 hours)
