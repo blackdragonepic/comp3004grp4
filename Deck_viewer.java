@@ -1,5 +1,4 @@
-package com.example.group4.myapplication;
-
+package com.example.thomas.mtgtrackingapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -58,17 +57,25 @@ public class Deck_viewer extends AppCompatActivity {
         );
         final Button BTND2=(Button)(findViewById(R.id.button));
         BTND2.setOnClickListener(new View.OnClickListener(){
+                                    @Override
+                                    public void onClick(View v){
+                                        currentGames.add(new Game());
+
+                                        GamePosition=currentGames.size()-1;
+                                        GameVewierHolder=currentGames.get(GamePosition);
+                                        startActivity(new Intent(getApplicationContext(),Game_view.class));
+                                    }
+                                }
+        );
+
+        final Button BTND3=(Button)(findViewById(R.id.button5));
+        BTND3.setOnClickListener(new View.OnClickListener(){
                                      @Override
                                      public void onClick(View v){
-                                         currentGames.add(new Game());
-
-                                         GamePosition=currentGames.size()-1;
-                                         GameVewierHolder=currentGames.get(GamePosition);
-                                         startActivity(new Intent(getApplicationContext(),Game_view.class));
+                                         startActivity(new Intent(getApplicationContext(),Decks.class));
                                      }
                                  }
         );
-
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, displayer);
         //ArrayAdapter<Arr>
@@ -95,18 +102,8 @@ public class Deck_viewer extends AppCompatActivity {
             }
         };
         listView.setOnItemClickListener(mMessageClickedHandler);
-        configureBackToDecksButton();
+    }
 
-    }
-    public void configureBackToDecksButton(){
-        Button nextButton = (Button) findViewById(R.id.backtoDecks);
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Deck_viewer.this, Decks.class));
-            }
-        });
-    }
 
     String[] toStringArray(ArrayList<Game> temp)
     {
@@ -117,6 +114,5 @@ public class Deck_viewer extends AppCompatActivity {
         }
         return output;
     }
-
 
 }

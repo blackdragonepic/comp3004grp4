@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/nicolbolasseethroughwhite"
-    tools:context="com.example.group4.myapplication.Deck_viewer">
+    tools:context="com.example.thomas.mtgtrackingapp.Deck_viewer">
 
     <RelativeLayout
         android:layout_width="match_parent"

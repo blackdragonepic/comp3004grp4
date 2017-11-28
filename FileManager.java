@@ -1,4 +1,4 @@
-package com.example.group4.myapplication;
+package com.example.thomas.mtgtrackingapp;
 
 import android.content.Context;
 import android.content.Context;
@@ -114,7 +114,7 @@ public class FileManager {
         return true;
     }
 
-    public ArrayList<Game> readGame(String str)
+    private ArrayList<Game> readGame(String str)
     {
         ArrayList<Game> output=new ArrayList<Game>(5);
         try {

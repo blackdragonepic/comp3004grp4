@@ -1,10 +1,8 @@
-package com.example.group4.myapplication;
+package com.example.thomas.mtgtrackingapp;
 
 /**
  * Created by Thomas on 28/10/2017.
  */
-
-
 
 public class Game {
     private String desc;
@@ -14,23 +12,6 @@ public class Game {
     private String goodCards;
     private String badCards;
 
-    Game(String name, String desc, String goodCards,String badCards)
-    {
-        this.name=name;
-        this.desc=desc;
-        win=1;
-        this.goodCards=goodCards;
-        this.badCards=badCards;
-    }
-    Game(String name, String desc, String goodCards,String badCards,String wins)
-    {
-        this.name=name;
-        this.desc=desc;
-
-        win=Integer.parseInt(wins);
-        this.goodCards=goodCards;
-        this.badCards=badCards;
-    }
     Game()
     {
         name="";
@@ -38,6 +19,22 @@ public class Game {
         win=1;
         goodCards="";
         badCards="";
+    }
+    Game(String name, String desc, String goodCards,String badCards)
+    {
+        this.name=name;
+        this.desc=desc;
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+        win=1;
+    }
+    Game(String name, String desc, String goodCards,String badCards,String wins)
+    {
+        this.name=name;
+        this.desc=desc;
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+        win=Integer.parseInt(wins);
     }
     public void setDesc(String desc) {
         this.desc = desc;

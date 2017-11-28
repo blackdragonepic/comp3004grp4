@@ -1,4 +1,4 @@
-package com.bsdomain.mtgapp;
+package com.example.thomas.mtgtrackingapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

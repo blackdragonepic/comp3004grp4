@@ -1,4 +1,4 @@
-package com.bsdomain.mtgapp;
+package com.example.thomas.mtgtrackingapp;
 
 /**
  * Created by srk_n on 2017-11-26.
@@ -115,7 +115,7 @@ public class Player {
         poison = p;
     }
 
-    public void setSpells( int s) {
+    public void setSpells(int s) {
         spells = s;
     }
 

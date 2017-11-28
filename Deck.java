@@ -1,4 +1,4 @@
-package com.example.group4.myapplication;
+package com.example.thomas.mtgtrackingapp;
 
 import java.util.ArrayList;
 
