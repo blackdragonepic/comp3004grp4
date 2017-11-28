@@ -1,2 +1,2 @@
-Week 3 - Learning how to use Android Studio, made very simple calculator app (2 hours)
-       - Began making the activities for the application (2 hours)
+Week 3 - Looked for Android IDE: downloaded and tested intellij, android studio, netbeans, eclipse, visual studio (5 hours)
+
