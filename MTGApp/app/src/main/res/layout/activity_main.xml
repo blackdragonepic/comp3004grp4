@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/mainbackground"
-    tools:context="com.bsdomain.mtgapp.MainActivity">
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbackground"
+        tools:context="com.bsdomain.mtgapp.MainActivity">
+        tools:layout_editor_absoluteY="81dp"
+        tools:layout_editor_absoluteX="0dp">
 
 
-    <Button
-        android:id="@+id/b1tosingleplayer"
-        android:layout_width="200dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/gametrackerbuttonbackground"
-        android:textColor="#BAE6EB"
-        android:textSize="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_menu_logo" />
+        <Button
+            android:id="@+id/b1tosingleplayer"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/gametrackerbuttonbackground"
+            android:textColor="#BAE6EB"
+            android:textSize="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_menu_logo" />
 
-    <Button
-        android:id="@+id/b2todecktracker"
-        android:layout_width="200dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="19dp"
-        android:background="@drawable/decktrackerbuttonbackground"
-        android:elevation="0dp"
-        android:textColor="#BAE6EB"
-        android:textSize="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1tosingleplayer" />
+        <Button
+            android:id="@+id/b2todecktracker"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/decktrackerbuttonbackground"
+            android:elevation="0dp"
+            android:textColor="#BAE6EB"
+            android:textSize="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/b1tosingleplayer" />
 
-    <ImageView
-        android:id="@+id/main_menu_logo"
-        android:layout_width="318dp"
-        android:layout_height="116dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="92dp"
-        android:src="@drawable/mtacomp3004"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/main_menu_logo"
+            android:layout_width="318dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="92dp"
+            android:src="@drawable/mtacomp3004"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
