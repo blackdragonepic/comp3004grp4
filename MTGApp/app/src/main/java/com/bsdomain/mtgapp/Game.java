@@ -20,16 +20,22 @@ public class Game {
         goodCards="";
         badCards="";
     }
-
-    Game(String n, String d, String g, String b, int w)
+    Game(String name, String desc, String goodCards,String badCards)
     {
-        name = n;
-        desc = d;
-        win = w;
-        goodCards = g;
-        badCards = b;
+        this.name=name;
+        this.desc=desc;
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+        win=1;
     }
-
+    Game(String name, String desc, String goodCards,String badCards,String wins)
+    {
+        this.name=name;
+        this.desc=desc;
+        this.goodCards=goodCards;
+        this.badCards=badCards;
+        win=Integer.parseInt(wins);
+    }
     public void setDesc(String desc) {
         this.desc = desc;
     }

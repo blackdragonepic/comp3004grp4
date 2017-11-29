@@ -17,27 +17,27 @@ public class Deck_creator extends AppCompatActivity {
 
         final Button saveDeckBTNvar=(Button)(findViewById(R.id.saveDeckBTN));
         saveDeckBTNvar.setOnClickListener(new View.OnClickListener(){
-                                              @Override
-                                              public void onClick(View v){
-                                                  final TextView nameInputVar=(TextView)(findViewById(R.id.nameInput));
-                                                  final TextView winsInputVar=(TextView)(findViewById(R.id.winsInput));
-                                                  final TextView losesInputVar=(TextView)(findViewById(R.id.losesInput));
-                                                  Decks.deckList.add(new Deck(
-                                                          nameInputVar.getText().toString()
-                                                          ,Integer.parseInt(winsInputVar.getText().toString())
-                                                          ,Integer.parseInt(losesInputVar.getText().toString())));
-                                                  startActivity(new Intent(getApplicationContext(),Decks.class));
-                                              }
-                                          }
+                                        @Override
+                                        public void onClick(View v){
+                                            final TextView nameInputVar=(TextView)(findViewById(R.id.nameInput));
+                                            final TextView winsInputVar=(TextView)(findViewById(R.id.winsInput));
+                                            final TextView losesInputVar=(TextView)(findViewById(R.id.losesInput));
+                                            Decks.deckList.add(new Deck(
+                                                    nameInputVar.getText().toString()
+                                                    ,Integer.parseInt(winsInputVar.getText().toString())
+                                                    ,Integer.parseInt(losesInputVar.getText().toString())));
+                                            startActivity(new Intent(getApplicationContext(),Decks.class));
+                                        }
+                                    }
         );
 
         final Button cancelBTNvar=(Button)(findViewById(R.id.cancelBTN));
         cancelBTNvar.setOnClickListener(new View.OnClickListener(){
-                                            @Override
-                                            public void onClick(View v){
-                                                startActivity(new Intent(getApplicationContext(),Decks.class));
-                                            }
+                                        @Override
+                                        public void onClick(View v){
+                                            startActivity(new Intent(getApplicationContext(),Decks.class));
                                         }
+                                    }
         );
 
     }

@@ -14,7 +14,6 @@ public class Deck {
         name="";
         games=new ArrayList<Game>();
     }
-
     Deck (String name)
     {
         this.name=name;
@@ -22,7 +21,6 @@ public class Deck {
         loses=0;
         games=new ArrayList<Game>();
     }
-
     Deck (String name, int wins, int loses)
     {
         this.name=name;
@@ -30,15 +28,13 @@ public class Deck {
         this.loses=loses;
         games=new ArrayList<Game>();
     }
-
-    Deck (String name, int wins, int loses, ArrayList<Game> gameList)
+    Deck (String name, int wins, int loses, ArrayList<Game> games)
     {
-        this.name = name;
-        this.wins = wins;
-        this.loses = loses;
-        games = gameList;
+        this.name=name;
+        this.wins=wins;
+        this.loses=loses;
+        this.games=games;
     }
-
     private int wins, loses;
     private String name;
     public ArrayList<Game> games;

@@ -114,7 +114,7 @@ public class FileManager {
         return true;
     }
 
-    public ArrayList<Game> readGame(String str)
+    private ArrayList<Game> readGame(String str)
     {
         ArrayList<Game> output=new ArrayList<Game>(5);
         try {
@@ -135,9 +135,7 @@ public class FileManager {
                 desc = desc.replaceAll(";;", ";");
                 good = good.replaceAll(";;", ";");
                 bad = bad.replaceAll(";;", ";");
-
-                int winsInt = Integer.parseInt(wins);
-                output.add(new Game(name, desc, good, bad, winsInt));
+                output.add(new Game(name, desc, good, bad, wins));
             }
         }
         catch (Exception e)
